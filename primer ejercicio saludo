@@ -1,0 +1,7 @@
+// programa que captura el nombre de una persona y la saluda
+PROCESO Saludo
+ESCRIBIR "programa  que te va a saludar"
+ESCRIBIR "digite su nombre"
+LEER Nombre
+ESCRIBIR " hola mi querid@ " ,Nombre," bienvenido al curso 10-5 de programacion "
+FINPROCESO
