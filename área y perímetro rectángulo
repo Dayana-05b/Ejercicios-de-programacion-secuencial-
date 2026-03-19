@@ -1,0 +1,11 @@
+//programa que calcula el perimetr y area de un rectangulo dada su base y altura// perimetro
+algoritmo calcula_perimetro_area
+	Escribir "digite base del rectangulo"
+	Leer base
+	escribir "digite la altura del rectangulo"
+	leer altura
+	area = base * altura
+	perimetro = 2*(base+altura)
+	escribir "El resultado del areas es: ",area
+	escribir "El resultado del perimetro es: ",perimetro
+FinAlgoritmo
