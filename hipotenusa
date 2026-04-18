@@ -1,0 +1,9 @@
+//proceso para hallar la hipotenusa de un trianguulo rectangulo
+ALGORITMO calcular_hipotenusa
+ESCRIBIR "digite el numero del primer cateto"
+LEER a
+ESCRIBIR "digite el numero del segundo cateto"
+LEER b
+hipotenusa= raiz (a*a)+(b*b)
+ESCRIBIR "el resultado de la hipotenusa es" , hipotenusa
+FINALGORITMO
