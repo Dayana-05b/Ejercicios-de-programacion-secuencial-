@@ -1,0 +1,15 @@
+//proceso hacer las operaciones basicas de numeros
+ALGORITMO operaciones_de_dos_numero
+ESCRIBIR "digite el primer valor"
+LEER d
+ESCRIBIR "digite el segundo valor"
+LEER s
+suma = s+d
+multiplicacion = s*d
+resta = s-d
+division = s/d
+ESCRIBIR "el resultado de la suma es " , suma
+ESCRIBIR "el resultado de la multiplicacion es " , multiplicacion
+ESCRIBIR "el resultado de la resta es " , resta
+ESCRIBIR "el resultado de la division " , division
+FINALGORITMO
