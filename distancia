@@ -1,0 +1,12 @@
+//proceso para saber la distancia de dos numeros
+ALGORITMO distancia_dos_numeros
+ESCRIBIR  "digite el primer numero"
+LEER v
+ESCRIBIR "digite el segundo numero"
+LEER b
+distancia=v-b
+SI  distancia <0 ENTONCES 
+ distancia=distancia*-1
+ FINSI
+ESCRIBIR "la distancia de los numeros es de ", distancia
+FINALGORITMO
