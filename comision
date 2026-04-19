@@ -1,0 +1,12 @@
+//Proceso para saber la comision
+ALGORITMO sacar_la_comison
+ESCRIBIR "digite su sueldo base"
+LEER e
+ESCRIBIR "digite el valor de las ventas"
+LEER s
+comision= (s*10)/100
+ESCRIBIR "la comision es de " , comision
+ESCRIBIR "el sueldo base " , e
+total= e+comision
+ESCRIBIR "el total es de " , total
+FinProceso
