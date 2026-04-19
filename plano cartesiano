@@ -1,0 +1,12 @@
+//proceso para saber la distancia de dos puntos
+ALGORITMO distancia_plano_cartesiano
+ESCRIBIR "digite el valor de x1"
+LEER x1
+ESCRIBIR "digite el valor de y1"
+LEER y1
+ESCRIBIR "digite el valor de x2"
+LEER x2
+ESCRIBIR "digite el valor de y2"
+LEER y2
+distancia = RC((x2 - x1)^2 + (y2 - y1)^2)
+ESCRIBIR "la distancia es de " , distancia
