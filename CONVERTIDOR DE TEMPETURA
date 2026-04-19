@@ -1,0 +1,7 @@
+//proceso que convierte de fahrenheit a celsius
+ALGORITMO covertir_a_grados
+ESCRIBIR "digite los grados en fahrenheit"
+LEER F
+CELSIUS=(F-32)*5/9
+ESCRIBIR "los grados celcius son " ,CELSIUS
+FINALGORITMO
