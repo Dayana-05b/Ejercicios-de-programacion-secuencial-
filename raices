@@ -1,0 +1,8 @@
+//proceso para saber las raaices de un numero
+ALGORITMO raices
+ESCRIBIR "digite el numero"
+LEER n
+raiz_cuadrada= RC(n)
+raiz_cubica = n^(1/3)
+ESCRIBIR "raiz cuadrada es ", raiz_cuadrada 
+ESCRIBIR "raiz cubica es " , raiz_cubica
