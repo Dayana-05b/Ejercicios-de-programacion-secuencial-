@@ -1,0 +1,7 @@
+//Proceso para saber el descuento de una compra
+ALGORITMO sacar_el_descuento
+ESCRIBIR "digite el valor de la compra"
+LEER j
+descuento= (j*15)/100
+ESCRIBIR "el valor incluido el descuento es de " , descuento
+FinProceso
