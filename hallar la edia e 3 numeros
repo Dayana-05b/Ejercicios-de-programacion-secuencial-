@@ -1,0 +1,11 @@
+//proceso que saca la media de tres numeros
+ALGORITMO sacar_la_media_de_tres_numeros
+ESCRIBIR "digite el primer numero"
+LEER a
+ESCRIBIR "digite el segundo numero"
+LEER b
+ESCRIBIR "digite el tercer numero"
+LEER c
+media=a+b+c/3
+ESCRIBIR "la media de esos tres numeros son " , media
+FINALGORITMO
