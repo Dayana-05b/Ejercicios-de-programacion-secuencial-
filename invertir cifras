@@ -1,0 +1,9 @@
+//Proceso quealterna el orden de los digitos e un numero con dos cifras
+ALGORITMO cambiar_las_cifras_de_un_numero
+ ESCRIBIR "digite numero de 2 cifras"
+ LEER x
+ decena = x / 10        
+unidad = x MOD 10      
+invertir = (unidad * 10) + decena
+ ESCRIBIR "el numero invertido es " , invertir
+FinProceso
