@@ -1,0 +1,27 @@
+Algoritmo NUMEROS_PRIMOS
+	Escribir "Digite un numero entero"
+	Leer num
+	divisor = 1
+	veces=0
+	
+	Mientras divisor <= num Hacer
+
+	residuo = num
+	
+	Mientras residuo > 0 Hacer
+	residuo = residuo - divisor
+	FinMientras
+	
+	Si residuo = 0 Entonces
+	veces <- veces + 1
+	FinSi
+	divisor <- divisor + 1
+
+	FinMientras
+	Si veces = 2 Entonces
+	Escribir "Es primo"
+	Sino
+	Escribir "No es primo"
+	FinSi
+	
+FinAlgoritmo
