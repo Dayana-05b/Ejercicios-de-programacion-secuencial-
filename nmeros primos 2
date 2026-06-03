@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	
+	Definir numero, n, divisor, divisores Como Entero
+	Definir resultado Como Real
+	
+	Escribir "Digite un numero:"
+	Leer numero
+	Para n <- 2 Hasta numero Hacer
+	
+	divisores <- 0
+	Para divisor <- 1 Hasta n Hacer
+	resultado <- n / divisor
+	Si resultado = Redon(resultado) Entonces
+	divisores <- divisores + 1
+	FinSi
+
+	FinPara
+	
+	Si divisores = 2 Entonces
+	Escribir n
+	FinSi
+
+FinPara
+
+FinAlgoritmo
